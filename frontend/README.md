@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Hunt App (frontend)</h1>
+<p>The frontend was maden in react with create-react-app and using the axios library to connect with backend.</p>
 
-## Available Scripts
+<p>The app has two only pages that one list the products and one detail products</p>
 
-In the project directory, you can run:
+# Home page
+<div align="center">
+    <img src="https://d5zusq.dm.files.1drv.com/y4myB35ykbrVzU4uvehB3yjgU5lga41K0NwiU9Gv4gzl21VK0ocjF61GxIyWI6I2wvqQMqmIUqe_R5ZB0bjbVnJFcCrleUAlTxEmj6OrLpFym5DVtSnjjCCi8zXgxrS7rIYnM-t7QO_BO_cAKJzkXTDYp-U914jZFSODxlIVeXXmhTQuc-5UbLG2g8w9wOiSgIKOsQ9xUDdLtfxO5Es_P879A?width=1263&height=1267&cropmode=none" alt="" />
+</div>
+<p>This page list all products that come from backend, but this page work with pagination and the user can paginate to see all products.</p>
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Detail page
+<div align="center">
+    <img src="https://djzusq.dm.files.1drv.com/y4mdFqyztsK3KIlpK-K3JqAjmSQmywdx5DTLgwPYwnG5L6M43bA8NQTq1iVkjIow0xKlDr1AdUE0976gE6rP-O4Bwd3luXi3D5hka-cAQ_v1yIk309uCNALxQbD7HkOoUPVYrtz6zmM8qkreaR_PMoKua9JdYFA6auCzleUCG2zFZ5kyrmwKaePobNm57EWs-9N5j3TwlZPgVPiXHtotO6hvg?width=1920&height=910&cropmode=none" alt="" />
+</div>
+<p>This page get the id of the product by the route and make a async request to get the product informations with backend and render in the screen the product informatios
+</p>

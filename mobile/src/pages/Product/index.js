@@ -6,7 +6,6 @@ const Product = ({ route: { params: { product } } }) => (
     source={{
       uri: product.url 
     }}
-    style={{ marginTop: 20 }}
   />
 );
 
